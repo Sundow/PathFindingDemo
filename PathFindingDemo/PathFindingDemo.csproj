@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<WarningsAsErrors>CS8600;CS8601;CS8602;CS8603;CS8604;CS8605;CS8714;CS8612;CS8613;CS8614;CS8616;CS8618;CS8619;CS8620;CS8621;CS8622;CS8625;CS8629;CS8634;CS8762;CS8764;CS8765;CS8766;CS8767;CS8768;CS8769;CS8774;CS8775</WarningsAsErrors>
+  </PropertyGroup>
+
+</Project>
