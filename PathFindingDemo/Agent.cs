@@ -83,7 +83,7 @@
                         // Ok, let's check if there another agent
                         // Let's take a beside node. Can the second walk here?
 
-                        if (spaceMap[i - 1].TryGetValue(nextBest, out Agent? anotherAgent2)
+                        if (i > 0 && spaceMap[i - 1].TryGetValue(nextBest, out Agent? anotherAgent2)
                             && anotherAgent == anotherAgent2)
                         {
                             // Fuck they are going to collide
